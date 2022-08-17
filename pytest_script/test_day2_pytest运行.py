@@ -10,4 +10,4 @@ def test_demo2():
 
 
 if __name__ == '__main__':
-    pytest.main('vs', [__file__])
+    pytest.main('-s', [__file__])
